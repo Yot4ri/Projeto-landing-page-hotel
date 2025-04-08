@@ -19,3 +19,6 @@ A landing page foi pensada em um hotel. No footer, temos um formulário para cad
 <br>
 
 - JSON: Servidor remoto para armazenamento de dados.
+<hr>
+
+OBS: É necessário inicializar o servidor para que os dados sejam identificados na página de reservas
