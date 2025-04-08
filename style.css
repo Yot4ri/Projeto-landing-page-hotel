@@ -1,0 +1,172 @@
+*{ /*"Limpar" as configurações padrão de margem e padding*/
+    margin:0;
+    padding:0;
+}
+
+/*-------------------- Cores Início --------------------*/
+
+.lightbrown{
+    background: rgb(218, 132, 52);
+    width:100%;
+}
+
+.brown{
+    background: rgb(177, 105, 37);
+    width:100%;
+}
+
+/*-------------------- Cores Fim --------------------*/
+
+/*-------------------- Primeiro quadrante Início --------------------*/
+
+#fotoPrincipal{
+    width:25em;
+}
+
+#btnSaibaMais{
+    font-style: italic;
+}
+
+/*-------------------- Primeiro quadrante Fim --------------------*/
+
+/*-------------------- Segundo quadrante Início --------------------*/
+
+.icone{
+    width:3.5em;
+    height:3.5em;
+}
+
+/*-------------------- Segundo quadrante Fim --------------------*/
+
+/*-------------------- Terceiro quadrante Início --------------------*/
+
+.card{
+    width:16rem;
+}
+
+/*-------------------- Terceiro quadrante Fim --------------------*/
+
+/*-------------------- Footer Início --------------------*/
+
+input{
+    margin-bottom: 1em;
+    width:10em;
+    padding-left:0.2em;
+
+    &#observacoes{
+        width:100%;
+        height:4em;
+    }
+
+    &#enviar{
+        width:10em;
+        height:2em;
+    }
+
+
+    
+}
+
+#reservas{
+    width: 5em;
+    height:2em;
+    font-size:1.2em;
+    text-align: center;
+    margin:auto;
+}
+
+.numeroPessoas{
+    &input{
+        width:1em;
+    }
+}
+/*-------------------- Footer Fim --------------------*/
+
+/*-------------------- Lista Reservas Início --------------------*/
+
+th,td{
+    padding:1.2em;
+    text-align: center;
+}
+/*-------------------- Lista Reservas Fim --------------------*/
+
+@media screen and (max-width:600px){
+
+    /*-------------------- Adaptações para 600px Início --------------------*/
+
+    .principal{
+        padding-right:3em;
+        gap:1em;
+    }
+
+    .principal h3{
+        font-size:20px;
+    }
+
+    .principal p{
+        font-size:10px;
+    }
+
+    #fotoPrincipal{
+        position:flex;
+        margin-left:15em;
+        margin-top:5em;
+        width:30em;
+    }
+
+    /*-------------------- Footer <600px Início --------------------*/
+    footer{
+        display:flex;
+        overflow-x: hidden;
+
+        section{
+            width:80%;
+        }
+
+        form{
+            position:relative;
+            gap:2em;
+            margin-right:10em;
+            width:50em;
+        }
+
+        form input{
+            width:6em;
+            margin-right:1em;
+        }
+
+        .inputPessoas{
+            display: flex;
+            width:8em;
+            flex-wrap: wrap;
+
+            input{
+                width:2em;
+                margin-left:0.5em;
+            }
+        }
+
+        #observacoes{
+            width:9em;
+            height:3em;
+        }
+
+        #enviar{
+            width:5em;
+            justify-content: center;
+        }
+    }
+    /*-------------------- Footer <600px Fim --------------------*/
+
+    /*-------------------- Lista Reservas Início --------------------*/
+
+    th,td{
+        padding:5px;
+        text-align: center;
+        overflow-x: scroll;
+    }
+    /*-------------------- Lista Reservas Fim --------------------*/
+
+}
+    /*-------------------- Adaptações para 600px Início --------------------*/
+
