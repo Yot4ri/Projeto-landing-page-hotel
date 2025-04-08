@@ -4,7 +4,7 @@ Projeto de landing page para hotel com cadastro de reserva, para fins acadêmico
 
 ## Funcionalidade 
 
-A landing page foi pensada em um hotel. No footer, temos um formulário para cadastro, que após o submit envia os dados até o servidor de dados, que pode ser visualizada apertando o botão "Reservas".
+A landing page foi pensada em um hotel. No footer, temos um formulário para cadastro, que após o submit envia os dados até o servidor de dados, que pode ser visualizada apertando o botão "Reservas". Site levemente responsivo no tamanho padrão do computador e para 600px, valores distintos disso podem gerar quebras, aplicado exclusivamente a landing page, e não a área de reservas.
 ### Tecnologias utilizadas 💻
 - HTML: Estrutura e organização do site;
   
